@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Sidebar" style="flex-grow: 1; top: auto; flex-direction: column; align-self: flex-start; align-content: center; width: 30%; background-color: rgb(52, 48, 56);">
+        <ui:ListView name="ListView" virtualization-method="DynamicHeight" reorder-mode="Animated" item-template="project://database/Assets/UI/planeInventoryItem.uxml?fileID=9197481963319205126&amp;guid=35b87a0c95b23ba42b4482809bf30412&amp;type=3#planeInventoryItem" binding-source-selection-mode="AutoAssign" reorderable="true" show-add-remove-footer="false" show-foldout-header="true" header-title="Airfield Inventory" style="height: 416px; background-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0); border-top-width: 10px; border-right-width: 10px; border-bottom-width: 10px; border-left-width: 10px;" />
+        <ui:VisualElement style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>
